@@ -7,31 +7,34 @@
     
 }
 
-body{
+html,body{
     padding:0;
     margin:0;
     box-sizing: border-box;
     background-color: var(--primary-color);
+    text-align:center;
+    overflow-x: hidden;
  
     
 }
 .header{
     width: 100%;
     background-color: var(--secondary-color);
-    font-size: 30px;
-    padding:40px;
-    margin-bottom:5px;
-    text-align: center;
+    font-size: 25px;
+    padding:30px;
+    margin:auto auto 5px auto;
     font-family: 'Pirata One', cursive;
     display:block;
     
 
 }
+.heading{
+    padding: 2rem;
+}
 .main{
-    margin:80px auto 50px auto;
     width: 80%;
     display : block;
-    
+    margin: 40px auto;
 
 }
 
@@ -39,9 +42,11 @@ body{
     
     width: 80%;
     display:block;
-    margin:0  auto 0 auto;
+    margin:0  auto;
     font-family: 'Pirata One', cursive;
     font-size: 20px;
+    border-radius:0.2rem;
+
     
 
 }
@@ -53,6 +58,7 @@ body{
     font-family: 'Pirata One', cursive;
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
+    border-radius: 0.2rem;
 
 }
 .btn:hover{
@@ -73,6 +79,9 @@ body{
     text-align: center;
 
 
+}
+p{
+    padding:0 2rem;
 }
 
 
