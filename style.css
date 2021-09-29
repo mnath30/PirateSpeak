@@ -21,7 +21,6 @@ html,body{
     width: 100%;
     background-color: var(--secondary-color);
     font-size: 25px;
-    padding:30px;
     margin:auto auto 5px auto;
     font-family: 'Pirata One', cursive;
     display:block;

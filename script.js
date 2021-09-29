@@ -11,12 +11,16 @@ function createURL(text){
     var textURL=`${URL}?text=${text}`;
     return textURL;
 }
+function errorHandler(error){
+    console.log(`Error was encountered as ${error}`);
+    alert("Server is down please try after some time");
+}
 
 function display(){
     fetch(createURL(inputText.value))
     .then(response=>response.json())
-    .then(json=>{resultText.innerText=json.contents.translated;
-    })
+    .then(json=>{resultText.innerText=json.contents.translated})
+    .catch(errorHandler);
     
 }
 
